@@ -11,4 +11,4 @@ Temporizador de Contagem Regressiva: A principal funcionalidade do site é um di
 Sinta-se à vontade para personalizar o projeto de acordo com suas preferências. Você pode alterar a imagem de fundo, ajustar as cores ou adicionar recursos adicionais se quiser :)
 
 # Créditos
-[Imagem de Fundo](https://www.wallpaperflare.com/ai-art-city-illustration-grand-theft-auto-vice-city-skyline-wallpaper-yjlhq)https://www.wallpaperflare.com/ai-art-city-illustration-grand-theft-auto-vice-city-skyline-wallpaper-yjlhq
+[Imagem de Fundo](https://www.wallpaperflare.com/ai-art-city-illustration-grand-theft-auto-vice-city-skyline-wallpaper-yjlhq)
