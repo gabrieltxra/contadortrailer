@@ -47,17 +47,6 @@ h1 {
     text-shadow: 2px 2px 2px palevioletred, -2px -2px 2px palevioletred, 2px -2px 2px rgb(223, 92, 142), -2px 2px 2px #ffffff;
 }
 
-.texto {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    margin: 5px;
-    text-decoration: none;
-    color: palevioletred;
-    text-shadow: 2px 2px 2px #fff, -2px -2px 2px #fff, 2px -2px 2px #fff, -2px 2px 2px #fff;
-    animation: textAnimation 4s infinite alternate;
-}
-
 @keyframes textAnimation {
     from {
         transform: translateY(0);
