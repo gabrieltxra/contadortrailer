@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Raleway";
+    margin: 0;
+    background-size: cover;
+    background-image: url('https://r4.wallpaperflare.com/wallpaper/105/829/131/ai-art-city-illustration-grand-theft-auto-vice-city-skyline-hd-wallpaper-48418946b80f5e1a20c11aa169df38f0.jpg');
+}
+
+h1 {
+    color: white;
+    font-weight: normal;
+    margin-top: 4.5rem;
+    font-size: 4rem;
+    text-shadow: 2px 2px 2px palevioletred, -2px -2px 2px palevioletred, 2px -2px 2px rgb(255, 67, 173), -2px 2px 2px #e1e1e1;
+    animation: textAnimation 4s infinite alternate; 
+}
+
+.COUNTDOWN {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 6vw; 
+    line-height: 0.5;
+    margin: 2rem;
+    color: rgb(222, 127, 159);
+    text-shadow: 2px 2px 2px #fff, -2px -2px 2px #fff, 2px -2px 2px #fff, -2px 2px 2px #fff;
+    animation: textAnimation 4s infinite alternate;
+}
+
+.countdown-el {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 2px palevioletred, -2px -2px 2px palevioletred, 2px -2px 2px rgb(223, 92, 142), -2px 2px 2px #ffffff;
+}
+
+.texto {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 5px;
+    text-decoration: none;
+    color: palevioletred;
+    text-shadow: 2px 2px 2px #fff, -2px -2px 2px #fff, 2px -2px 2px #fff, -2px 2px 2px #fff;
+    animation: textAnimation 4s infinite alternate;
+}
+
+@keyframes textAnimation {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-3px);
+    }
+}
