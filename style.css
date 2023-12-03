@@ -6,6 +6,7 @@
 
 body {
     display: flex;
+    transition: background 1s ease;
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
@@ -13,6 +14,12 @@ body {
     margin: 0;
     background-size: cover;
     background-image: url('https://r4.wallpaperflare.com/wallpaper/105/829/131/ai-art-city-illustration-grand-theft-auto-vice-city-skyline-hd-wallpaper-48418946b80f5e1a20c11aa169df38f0.jpg');
+    background-position: center; 
+    background-attachment: fixed; /* Mantém o plano de fundo fixo ao rolar */
+}
+
+body.fade-out {
+    opacity: 0;
 }
 
 h1 {
@@ -37,21 +44,22 @@ h1 {
     margin: 2rem;
     color: rgb(222, 127, 159);
     text-shadow: 2px 2px 2px #fff, -2px -2px 2px #fff, 2px -2px 2px #fff, -2px 2px 2px #fff;
-    animation: textAnimation 4s infinite alternate;
 }
 
-.countdown-el {
+.countdown-el, #finally-container {
     color: whitesmoke;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 24px;
+    margin: 20px;
     text-shadow: 2px 2px 2px palevioletred, -2px -2px 2px palevioletred, 2px -2px 2px rgb(223, 92, 142), -2px 2px 2px #ffffff;
 }
 
-@keyframes textAnimation {
-    from {
-        transform: translateY(0);
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2.1rem; 
     }
-    to {
-        transform: translateY(-3px);
+
+    .text, .countdown-el, #finally-container {
+        font-size: 35px; 
     }
 }
