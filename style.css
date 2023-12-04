@@ -15,7 +15,7 @@ body {
     background-size: cover;
     background-image: url('https://r4.wallpaperflare.com/wallpaper/105/829/131/ai-art-city-illustration-grand-theft-auto-vice-city-skyline-hd-wallpaper-48418946b80f5e1a20c11aa169df38f0.jpg');
     background-position: center; 
-    background-attachment: fixed; /* Mantém o plano de fundo fixo ao rolar */
+    background-attachment: fixed; 
 }
 
 body.fade-out {
