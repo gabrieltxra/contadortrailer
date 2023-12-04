@@ -5,7 +5,7 @@ const secondsEL = document.getElementById("seconds");
 const countdownContainer = document.querySelector(".COUNTDOWN"); 
 const finallyContainer = document.getElementById("finally-container");
 
-const gtaVI = new Date("December 4, 2023 20:19:00");
+const gtaVI = new Date("December 4, 2023 20:50:00");
 let musicPlayed = false;
 
 function countdown() {
