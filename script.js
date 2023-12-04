@@ -49,7 +49,7 @@ function playMusic() {
 }
 
 function showFinallyMessage() {
-    finallyContainer.innerHTML = "<a href='https://www.youtube.com/@RockstarGames/videos'><p id='finallyContainer'>FINALMENTE <br>O TRAILER DO SÉCULO</p></a>";
+    finallyContainer.innerHTML = "<a href='https://www.youtube.com/watch?v=QdBZY2fkU-0&ab_channel=RockstarGames'><p id='finallyContainer'>FINALMENTE <br>O TRAILER DO SÉCULO</p></a>";
     countdownContainer.style.display = "none";
     finallyContainer.style.display = "block";
     document.getElementById('finallyContainer').style.cssText = `
